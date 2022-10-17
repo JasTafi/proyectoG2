@@ -1,0 +1,61 @@
+* {
+   margin: 0;
+   padding: 0;
+}
+/*
+img {
+   width: 100px;
+}
+
+nav {
+   width: 8;
+}
+
+@media (min-width: medium) {
+   nav {
+      width: 5;
+   }
+}
+*/
+.suscripcion {
+   font-size: 0.8rem;
+}
+div.container-fluid {
+   margin-bottom: 50px;
+}
+div.list-group {
+   margin-bottom: 50px;
+}
+/* usado para mostrar las cajas
+.borde{border: 1px #000 solid; text-align: center; height: 800px;}
+.color1{background: #eeeeee;}
+.color2{background: #fcc314;}
+.color3{background: #94ac3c;}
+.color4{background: #295ba7;}
+*/
+
+.notas {
+   display: flex;
+   justify-content: space-between;
+   align-items: flex-start;
+   margin-bottom: 20px;
+}
+.not { /*VER ESTA PARTE el padding, margin y fondo*/
+   box-shadow: 2px 1px #3c3b3b;
+   width: 100%;
+   height: 66vh;
+   background-color: #ffffff;
+   border-radius: 10px;
+   margin: 0 5px;
+   
+}
+.not h4, .not a, .not p {
+   text-align: justify;
+   font-size: 1.1rem;
+   padding: 0.5vh 1vw;
+}
+.not img {
+   width: 100%;
+   border-radius: 10px;
+}
+
